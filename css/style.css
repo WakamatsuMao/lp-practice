@@ -70,3 +70,42 @@ header {
 .skills-title {
   margin-bottom: 50px;
 }
+
+.plan {
+  background-color: #d0dfea;
+  padding-block: 50px;
+}
+
+.plan-title {
+  margin-bottom: 50px;
+}
+
+.plan-table {
+  th,
+  td {
+    /* 全セル共通のスタイル */
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding: 10px;
+    border-left: 2px solid #fff;
+  }
+  thead th {
+    /* 見出し行のスタイル */
+    background-color: #6ba7eb;
+  }
+  tbody th {
+    /* 見出し列のスタイル */
+    font-weight: bold;
+  }
+  tbody {
+    tr:nth-child(odd) {
+      /* 奇数列のスタイル */
+      background-color: #f9f9f9;
+    }
+    tr:nth-child(even) {
+      /* 偶数列のスタイル */
+      background-color: #e0efff;
+    }
+  }
+}
