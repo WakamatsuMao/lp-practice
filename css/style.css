@@ -109,3 +109,16 @@ header {
     }
   }
 }
+
+.sns {
+  background-color: #e3f2fd;
+  padding-block: 200px;
+}
+
+.sns-icon {
+  width: 185px;
+  padding-block: 25px;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+}
