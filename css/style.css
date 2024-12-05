@@ -4,3 +4,12 @@
   width: 1100px;
   margin-inline: auto;
 }
+
+header {
+  background-color: #fff;
+}
+
+.header-icon {
+  margin-block: 15px;
+  color: #777;
+}
