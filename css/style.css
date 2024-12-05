@@ -7,17 +7,16 @@
 
 header {
   background-color: #fff;
+  padding-block: 15px;
 }
 
 .header-icon {
-  margin-block: 15px;
   color: #777;
 }
 
 .contact-button {
   color: #fff;
   background-color: #6ba7eb;
-  margin-top: 15px;
 }
 
 .keyvisual {
