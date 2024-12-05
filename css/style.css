@@ -57,3 +57,7 @@ header {
   line-height: 18px;
   word-break: break-all;
 }
+
+.news-image {
+  width: 250px;
+}
