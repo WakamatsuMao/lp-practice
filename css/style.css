@@ -122,3 +122,13 @@ header {
   overflow: hidden;
   font-size: 40px;
 }
+
+footer {
+  background-color: #cfd8dc;
+  padding-block: 25px;
+}
+
+.footer-copyright {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
