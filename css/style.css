@@ -21,6 +21,10 @@ header {
 
 .keyvisual {
   padding-block: 400px;
+  background-image: url(../images/keyvisual/keyvisual.jpg);
+  /* 背景画像を中央寄せ & coverで配置調整 */
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
