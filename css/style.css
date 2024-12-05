@@ -61,3 +61,12 @@ header {
 .news-image {
   width: 250px;
 }
+
+.skills {
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.skills-title {
+  margin-bottom: 50px;
+}
