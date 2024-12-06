@@ -34,6 +34,12 @@ header {
   }
 }
 
+.header-menu-icon {
+  color: #ccc;
+  /* SP版以外では非表示 */
+  display: none;
+}
+
 .keyvisual {
   padding-block: 400px;
   background-image: url(../images/keyvisual/keyvisual.jpg);
