@@ -263,4 +263,13 @@ footer {
   .sub-title {
     font-size: 30px;
   }
+  .plan-table {
+    th {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    td {
+      font-size: 12px;
+    }
+  }
 }
