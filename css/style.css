@@ -146,6 +146,14 @@ header {
   font-size: 40px;
 }
 
+.sns-container {
+  display: flex;
+  /* flexコンテナ自体の中央揃え */
+  justify-content: center;
+  /* flexアイテム内の各アイコンの中央揃え */
+  text-align: center;
+}
+
 footer {
   background-color: #cfd8dc;
   padding-block: 25px;
