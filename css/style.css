@@ -122,7 +122,6 @@ header {
     line-height: 26px;
     text-align: center;
     padding: 10px;
-    border-left: 2px solid #fff;
   }
   thead th {
     /* 見出し行のスタイル */
@@ -133,6 +132,11 @@ header {
     font-weight: bold;
   }
   tbody {
+    /* レコード行（見出し行以外）に適用 */
+    tr {
+      /* 全列共通のスタイル */
+      border-bottom: 2px solid #fff;
+    }
     tr:nth-child(odd) {
       /* 奇数列のスタイル */
       background-color: #f9f9f9;
@@ -141,6 +145,11 @@ header {
       /* 偶数列のスタイル */
       background-color: #e0efff;
     }
+  }
+  th:not(:first-child),
+  td:not(:first-child) {
+    /* 一番最初の列以外（2列目以降）のスタイル */
+    border-left: 2px solid #fff;
   }
 }
 
