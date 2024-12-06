@@ -248,4 +248,10 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .header-menu-icon {
+    display: inline-block;
+  }
+  .contact-button {
+    display: none;
+  }
 }
