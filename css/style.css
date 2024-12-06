@@ -272,4 +272,22 @@ footer {
       font-size: 12px;
     }
   }
+  .sns {
+    /* 全体の上下の余白 */
+    padding-block: 50px;
+  }
+  .sns-icon {
+    /* 左右の余白 */
+    padding-inline: 15px;
+  }
+  .sns-container {
+    /* 縦並び */
+    flex-direction: column;
+    /* アイコンの上下の余白 */
+    gap: 50px;
+    li {
+      /* 横幅100% */
+      width: 100%;
+    }
+  }
 }
