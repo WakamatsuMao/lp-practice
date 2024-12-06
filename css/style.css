@@ -202,4 +202,7 @@ footer {
 
 @media (max-width: 1199px) {
   /* タブレット版レイアウト */
+  .inner {
+    width: 97%;
+  }
 }
