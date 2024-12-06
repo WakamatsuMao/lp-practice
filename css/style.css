@@ -64,10 +64,6 @@ header {
   word-break: break-all;
 }
 
-.news-image {
-  width: 250px;
-}
-
 .news-flex-container {
   display: flex;
   .news-flex-item-image {
