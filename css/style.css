@@ -208,4 +208,17 @@ footer {
   .keyvisual {
     padding-block: 250px;
   }
+  .news {
+    padding-block: 50px;
+  }
+  .news-flex-container {
+    /* 横並び→縦並び */
+    flex-direction: column;
+    .news-flex-item-image {
+      width: 100%;
+    }
+    .news-flex-item-text {
+      width: 100%;
+    }
+  }
 }
