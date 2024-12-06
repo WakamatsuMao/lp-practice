@@ -103,6 +103,7 @@ header {
 }
 
 .plan-table {
+  width: 100%;
   th,
   td {
     /* 全セル共通のスタイル */
