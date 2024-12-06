@@ -10,6 +10,14 @@ header {
   padding-block: 15px;
 }
 
+.header-container {
+  display: flex;
+  /* flexアイテムの均等割付 */
+  justify-content: space-between;
+  /* flexアイテムの上寄せ */
+  align-items: flex-start;
+}
+
 .header-icon {
   color: #777;
 }
