@@ -28,6 +28,10 @@ header {
   display: inline-block;
   padding: 14px;
   font-weight: bold;
+  transition: all 0.3s;
+  &:hover {
+    color: #333;
+  }
 }
 
 .keyvisual {
@@ -104,6 +108,13 @@ header {
   gap: 100px;
 }
 
+.skill-item {
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
 .plan {
   background-color: #d0dfea;
   padding-block: 50px;
@@ -164,6 +175,10 @@ header {
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
+  transition: all 0.5s;
+  &:hover {
+    color: #fff;
+  }
 }
 
 .sns-container {
