@@ -225,4 +225,18 @@ footer {
       width: 100%;
     }
   }
+  .skills-container {
+    /* 縦並びに切り替え */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* アイテム間の余白を消す */
+    gap: 0px;
+    /* 中央揃え */
+    justify-items: center;
+    .skill-item:nth-child(3n):not(:last-child) {
+      /* gridアイテム3個ごとに余白をつける
+      最後のアイテムの場合は適用しない（親paddingとの干渉防止） */
+      margin-bottom: 80px;
+    }
+  }
 }
