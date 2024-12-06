@@ -85,6 +85,13 @@ header {
   margin-bottom: 50px;
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 100px;
+}
+
 .plan {
   background-color: #d0dfea;
   padding-block: 50px;
