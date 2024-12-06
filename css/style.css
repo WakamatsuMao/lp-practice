@@ -25,6 +25,9 @@ header {
 .contact-button {
   color: #fff;
   background-color: #6ba7eb;
+  display: inline-block;
+  padding: 14px;
+  font-weight: bold;
 }
 
 .keyvisual {
