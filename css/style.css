@@ -68,6 +68,16 @@ header {
   width: 250px;
 }
 
+.news-flex-container {
+  display: flex;
+  .news-flex-item-image {
+    width: 40%;
+  }
+  .news-flex-item-text {
+    width: 60%;
+  }
+}
+
 .skills {
   background-color: #fff;
   padding-top: 50px;
