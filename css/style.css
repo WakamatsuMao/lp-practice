@@ -113,6 +113,10 @@ header {
   &:hover {
     opacity: 1;
   }
+  img {
+    /* vertical-align: baseline;に由来する空白を消す */
+    vertical-align: top;
+  }
 }
 
 .plan {
