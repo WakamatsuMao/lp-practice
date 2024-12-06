@@ -66,6 +66,8 @@ header {
 
 .news-flex-container {
   display: flex;
+  /* インライン要素の中央揃え */
+  text-align: center;
   .news-flex-item-image {
     width: 40%;
   }
