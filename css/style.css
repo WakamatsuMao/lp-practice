@@ -157,6 +157,7 @@ header {
 footer {
   background-color: #cfd8dc;
   padding-block: 25px;
+  text-align: right;
 }
 
 .footer-copyright {
